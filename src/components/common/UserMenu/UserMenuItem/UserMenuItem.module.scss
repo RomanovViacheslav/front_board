@@ -1,0 +1,10 @@
+.user_menu_item {
+  & > img {
+    padding-right: 16px;
+  }
+}
+
+.user_menu_activ {
+  border-left: 2px solid #4877f2;
+  color: #4877f2;
+}

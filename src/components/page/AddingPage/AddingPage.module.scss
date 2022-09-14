@@ -1,0 +1,166 @@
+.content {
+  grid-area: 'content';
+  background: rgba(42, 47, 55, 0.02);
+  text-align: center;
+}
+
+.content__container {
+  height: 100%;
+  margin: 0 auto;
+  max-width: 1170px;
+  padding-left: 25px;
+  padding-right: 25px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.user_menu {
+  width: 263px;
+  & > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+.ads_wrapper {
+  width: 100%;
+  margin-left: 40px;
+}
+
+.link_back {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  display: flex;
+  justify-content: start;
+}
+
+.link_back:hover {
+  color: #3a95ff;
+}
+
+.ads_form_top {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: white;
+  margin-top: 30px;
+  margin-bottom: 19px;
+  padding-left: 24px;
+  padding-right: 28px;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+
+  & > span {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+  }
+  & > button {
+    width: 147px;
+    height: 40px;
+  }
+}
+
+.ads_form_wrap {
+  margin-top: 40px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 37px;
+  padding-bottom: 37px;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.ads_form_wrap input {
+  background: rgba(42, 47, 55, 0.02);
+}
+
+.form_title label {
+  opacity: 0.6;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.form_title {
+  text-align: start;
+}
+
+.form_input {
+  width: 100%;
+  height: 64px;
+  background: rgba(42, 47, 55, 0.02);
+  border: 1px solid rgba(42, 47, 55, 0.08);
+  border-radius: 4px;
+  transition: all 0.5s ease;
+  margin: 0;
+}
+
+.form_option_price {
+  & > span {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    width: 100% !important;
+  }
+}
+.form_option {
+  margin-right: 2.5% !important;
+  width: 47.5% !important;
+  text-align: start;
+  & > div > label {
+    opacity: 0.6;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+
+.form_price {
+  margin-left: 2.5%;
+  width: 47.5% !important;
+  text-align: start;
+  & > div > label {
+    opacity: 0.6;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+.form_input_price {
+  height: 64px;
+  background: rgba(42, 47, 55, 0.02);
+  border: 1px solid rgba(42, 47, 55, 0.08);
+  border-radius: 4px;
+  transition: all 0.5s ease;
+}
+
+.form_text_area {
+  height: 128px !important;
+  background: rgba(42, 47, 55, 0.02);
+  border: 1px solid rgba(42, 47, 55, 0.08);
+  border-radius: 4px;
+  transition: all 0.5s ease;
+}
+
+.form_radio {
+  width: 100%;
+  height: 64px;
+  background: rgba(42, 47, 55, 0.02);
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  & > label {
+    padding-left: 24px;
+  }
+}
+
+.form_input_error {
+  color: red;
+}

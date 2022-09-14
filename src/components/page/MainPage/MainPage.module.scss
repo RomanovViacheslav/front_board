@@ -1,0 +1,89 @@
+.content {
+  grid-area: 'content';
+  background: rgba(42, 47, 55, 0.02);
+  text-align: center;
+}
+
+.content__container {
+  // height: 100%;
+
+  margin: 0 auto;
+}
+
+.main_banner {
+  background-color: white;
+}
+
+.banner__container {
+  // height: 100%;
+  margin: 0 auto;
+  max-width: 1170px;
+  padding-left: 25px;
+  padding-right: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main_baner_text {
+  text-align: start;
+  & > h1 {
+    width: 100%;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+  }
+  & > p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 0.8;
+  }
+}
+
+.main_baner_img {
+  max-width: 100%;
+  width: 464px;
+}
+
+.card_wrapper {
+  height: 100%;
+  margin: 0 auto;
+  max-width: 1170px;
+  padding-left: 25px;
+  padding-right: 25px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 30px;
+  margin-bottom: 40px;
+}
+
+.spin {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card_button {
+  
+  margin-bottom: 40px;
+  width: 250px;
+}
+
+.card_title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: start;
+  margin: 0 auto;
+  max-width: 1170px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-bottom: 40px;
+}
